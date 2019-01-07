@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3BB88C21DC58BA00B6D28C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB88B21DC58BA00B6D28C /* AppDelegate.m */; };
+		CE3BB88F21DC58BA00B6D28C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB88E21DC58BA00B6D28C /* ViewController.m */; };
+		CE3BB89221DC58BA00B6D28C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3BB89021DC58BA00B6D28C /* Main.storyboard */; };
+		CE3BB89421DC58C000B6D28C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3BB89321DC58C000B6D28C /* Assets.xcassets */; };
+		CE3BB89A21DC58C000B6D28C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB89921DC58C000B6D28C /* main.m */; };
+		CE3BB8A421DC58C000B6D28C /* FLCrashProtectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8A321DC58C000B6D28C /* FLCrashProtectDemoTests.m */; };
+		CE3BB8AF21DC58C000B6D28C /* FLCrashProtectDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8AE21DC58C000B6D28C /* FLCrashProtectDemoUITests.m */; };
+		CE3BB8C021DC5A4F00B6D28C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8BE21DC5A4F00B6D28C /* Student.m */; };
+		CE3BB8C121DC5A4F00B6D28C /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8BF21DC5A4F00B6D28C /* Teacher.m */; };
+		CE3BB8E321DC5D6300B6D28C /* NSObject+FLUnrecognizedSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8C521DC5D6300B6D28C /* NSObject+FLUnrecognizedSelector.m */; };
+		CE3BB8E421DC5D6300B6D28C /* NSObject+FLKVOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8C821DC5D6300B6D28C /* NSObject+FLKVOCrash.m */; };
+		CE3BB8E521DC5D6300B6D28C /* NSNotificationCenter+FLCrashPtotect.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8CC21DC5D6300B6D28C /* NSNotificationCenter+FLCrashPtotect.m */; };
+		CE3BB8E621DC5D6300B6D28C /* NSArray+FLCrashProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8D321DC5D6300B6D28C /* NSArray+FLCrashProtect.m */; };
+		CE3BB8E721DC5D6300B6D28C /* NSMutableArray+FLCrashProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8D521DC5D6300B6D28C /* NSMutableArray+FLCrashProtect.m */; };
+		CE3BB8E821DC5D6300B6D28C /* NSString+FLCrashProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8D621DC5D6300B6D28C /* NSString+FLCrashProtect.m */; };
+		CE3BB8E921DC5D6300B6D28C /* NSDictionary+FLCrashProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8D721DC5D6300B6D28C /* NSDictionary+FLCrashProtect.m */; };
+		CE3BB8EA21DC5D6300B6D28C /* NSMutableDictionary+FLCrashProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8D821DC5D6300B6D28C /* NSMutableDictionary+FLCrashProtect.m */; };
+		CE3BB8EB21DC5D6300B6D28C /* NSMutableString+FLCrashProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8DA21DC5D6300B6D28C /* NSMutableString+FLCrashProtect.m */; };
+		CE3BB8EC21DC5D6300B6D28C /* FLCrashSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8DD21DC5D6300B6D28C /* FLCrashSwizzling.m */; };
+		CE3BB8ED21DC5D6300B6D28C /* NSObject+FLKVCCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8E021DC5D6300B6D28C /* NSObject+FLKVCCrash.m */; };
+		CE3BB8EE21DC5D6300B6D28C /* FLCrashProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8E121DC5D6300B6D28C /* FLCrashProtect.m */; };
+		CE3BB8EF21DC5D6300B6D28C /* FLCrashReport.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8E221DC5D6300B6D28C /* FLCrashReport.m */; };
+		CE3BB8F221DC5DB500B6D28C /* PushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8F121DC5DB500B6D28C /* PushedViewController.m */; };
+		CE3BB8F921DCAEA300B6D28C /* FLCatchCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3BB8F821DCAEA300B6D28C /* FLCatchCrash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE3BB8A021DC58C000B6D28C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3BB87F21DC58BA00B6D28C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE3BB88621DC58BA00B6D28C;
+			remoteInfo = FLCrashProtectDemo;
+		};
+		CE3BB8AB21DC58C000B6D28C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE3BB87F21DC58BA00B6D28C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE3BB88621DC58BA00B6D28C;
+			remoteInfo = FLCrashProtectDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE3BB88721DC58BA00B6D28C /* FLCrashProtectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLCrashProtectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3BB88A21DC58BA00B6D28C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE3BB88B21DC58BA00B6D28C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE3BB88D21DC58BA00B6D28C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE3BB88E21DC58BA00B6D28C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE3BB89121DC58BA00B6D28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE3BB89321DC58C000B6D28C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE3BB89821DC58C000B6D28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3BB89921DC58C000B6D28C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE3BB89F21DC58C000B6D28C /* FLCrashProtectDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLCrashProtectDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3BB8A321DC58C000B6D28C /* FLCrashProtectDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCrashProtectDemoTests.m; sourceTree = "<group>"; };
+		CE3BB8A521DC58C000B6D28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3BB8AA21DC58C000B6D28C /* FLCrashProtectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLCrashProtectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3BB8AE21DC58C000B6D28C /* FLCrashProtectDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCrashProtectDemoUITests.m; sourceTree = "<group>"; };
+		CE3BB8B021DC58C000B6D28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3BB8BC21DC5A4F00B6D28C /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		CE3BB8BD21DC5A4F00B6D28C /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		CE3BB8BE21DC5A4F00B6D28C /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		CE3BB8BF21DC5A4F00B6D28C /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		CE3BB8C421DC5D6300B6D28C /* NSObject+FLUnrecognizedSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FLUnrecognizedSelector.h"; sourceTree = "<group>"; };
+		CE3BB8C521DC5D6300B6D28C /* NSObject+FLUnrecognizedSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FLUnrecognizedSelector.m"; sourceTree = "<group>"; };
+		CE3BB8C721DC5D6300B6D28C /* NSObject+FLKVOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FLKVOCrash.h"; sourceTree = "<group>"; };
+		CE3BB8C821DC5D6300B6D28C /* NSObject+FLKVOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FLKVOCrash.m"; sourceTree = "<group>"; };
+		CE3BB8C921DC5D6300B6D28C /* FLCrashReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCrashReport.h; sourceTree = "<group>"; };
+		CE3BB8CB21DC5D6300B6D28C /* NSNotificationCenter+FLCrashPtotect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+FLCrashPtotect.h"; sourceTree = "<group>"; };
+		CE3BB8CC21DC5D6300B6D28C /* NSNotificationCenter+FLCrashPtotect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+FLCrashPtotect.m"; sourceTree = "<group>"; };
+		CE3BB8CD21DC5D6300B6D28C /* FLCrashProtect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCrashProtect.h; sourceTree = "<group>"; };
+		CE3BB8CF21DC5D6300B6D28C /* NSMutableArray+FLCrashProtect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FLCrashProtect.h"; sourceTree = "<group>"; };
+		CE3BB8D021DC5D6300B6D28C /* NSDictionary+FLCrashProtect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FLCrashProtect.h"; sourceTree = "<group>"; };
+		CE3BB8D121DC5D6300B6D28C /* NSString+FLCrashProtect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FLCrashProtect.h"; sourceTree = "<group>"; };
+		CE3BB8D221DC5D6300B6D28C /* NSMutableString+FLCrashProtect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+FLCrashProtect.h"; sourceTree = "<group>"; };
+		CE3BB8D321DC5D6300B6D28C /* NSArray+FLCrashProtect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FLCrashProtect.m"; sourceTree = "<group>"; };
+		CE3BB8D421DC5D6300B6D28C /* NSMutableDictionary+FLCrashProtect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+FLCrashProtect.h"; sourceTree = "<group>"; };
+		CE3BB8D521DC5D6300B6D28C /* NSMutableArray+FLCrashProtect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FLCrashProtect.m"; sourceTree = "<group>"; };
+		CE3BB8D621DC5D6300B6D28C /* NSString+FLCrashProtect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FLCrashProtect.m"; sourceTree = "<group>"; };
+		CE3BB8D721DC5D6300B6D28C /* NSDictionary+FLCrashProtect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FLCrashProtect.m"; sourceTree = "<group>"; };
+		CE3BB8D821DC5D6300B6D28C /* NSMutableDictionary+FLCrashProtect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+FLCrashProtect.m"; sourceTree = "<group>"; };
+		CE3BB8D921DC5D6300B6D28C /* NSArray+FLCrashProtect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FLCrashProtect.h"; sourceTree = "<group>"; };
+		CE3BB8DA21DC5D6300B6D28C /* NSMutableString+FLCrashProtect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+FLCrashProtect.m"; sourceTree = "<group>"; };
+		CE3BB8DC21DC5D6300B6D28C /* FLCrashSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCrashSwizzling.h; sourceTree = "<group>"; };
+		CE3BB8DD21DC5D6300B6D28C /* FLCrashSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCrashSwizzling.m; sourceTree = "<group>"; };
+		CE3BB8DF21DC5D6300B6D28C /* NSObject+FLKVCCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FLKVCCrash.h"; sourceTree = "<group>"; };
+		CE3BB8E021DC5D6300B6D28C /* NSObject+FLKVCCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FLKVCCrash.m"; sourceTree = "<group>"; };
+		CE3BB8E121DC5D6300B6D28C /* FLCrashProtect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCrashProtect.m; sourceTree = "<group>"; };
+		CE3BB8E221DC5D6300B6D28C /* FLCrashReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCrashReport.m; sourceTree = "<group>"; };
+		CE3BB8F021DC5DB500B6D28C /* PushedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushedViewController.h; sourceTree = "<group>"; };
+		CE3BB8F121DC5DB500B6D28C /* PushedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushedViewController.m; sourceTree = "<group>"; };
+		CE3BB8F721DCAEA300B6D28C /* FLCatchCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLCatchCrash.h; sourceTree = "<group>"; };
+		CE3BB8F821DCAEA300B6D28C /* FLCatchCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCatchCrash.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3BB88421DC58BA00B6D28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3BB89C21DC58C000B6D28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3BB8A721DC58C000B6D28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3BB87E21DC58BA00B6D28C = {
+			isa = PBXGroup;
+			children = (
+				CE3BB88921DC58BA00B6D28C /* FLCrashProtectDemo */,
+				CE3BB8A221DC58C000B6D28C /* FLCrashProtectDemoTests */,
+				CE3BB8AD21DC58C000B6D28C /* FLCrashProtectDemoUITests */,
+				CE3BB88821DC58BA00B6D28C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3BB88821DC58BA00B6D28C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB88721DC58BA00B6D28C /* FLCrashProtectDemo.app */,
+				CE3BB89F21DC58C000B6D28C /* FLCrashProtectDemoTests.xctest */,
+				CE3BB8AA21DC58C000B6D28C /* FLCrashProtectDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3BB88921DC58BA00B6D28C /* FLCrashProtectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB8C221DC5D6300B6D28C /* FLCrashProtect */,
+				CE3BB88A21DC58BA00B6D28C /* AppDelegate.h */,
+				CE3BB88B21DC58BA00B6D28C /* AppDelegate.m */,
+				CE3BB88D21DC58BA00B6D28C /* ViewController.h */,
+				CE3BB88E21DC58BA00B6D28C /* ViewController.m */,
+				CE3BB8F021DC5DB500B6D28C /* PushedViewController.h */,
+				CE3BB8F121DC5DB500B6D28C /* PushedViewController.m */,
+				CE3BB8BC21DC5A4F00B6D28C /* Student.h */,
+				CE3BB8BE21DC5A4F00B6D28C /* Student.m */,
+				CE3BB8BD21DC5A4F00B6D28C /* Teacher.h */,
+				CE3BB8BF21DC5A4F00B6D28C /* Teacher.m */,
+				CE3BB89021DC58BA00B6D28C /* Main.storyboard */,
+				CE3BB89321DC58C000B6D28C /* Assets.xcassets */,
+				CE3BB89821DC58C000B6D28C /* Info.plist */,
+				CE3BB89921DC58C000B6D28C /* main.m */,
+			);
+			path = FLCrashProtectDemo;
+			sourceTree = "<group>";
+		};
+		CE3BB8A221DC58C000B6D28C /* FLCrashProtectDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB8A321DC58C000B6D28C /* FLCrashProtectDemoTests.m */,
+				CE3BB8A521DC58C000B6D28C /* Info.plist */,
+			);
+			path = FLCrashProtectDemoTests;
+			sourceTree = "<group>";
+		};
+		CE3BB8AD21DC58C000B6D28C /* FLCrashProtectDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB8AE21DC58C000B6D28C /* FLCrashProtectDemoUITests.m */,
+				CE3BB8B021DC58C000B6D28C /* Info.plist */,
+			);
+			path = FLCrashProtectDemoUITests;
+			sourceTree = "<group>";
+		};
+		CE3BB8C221DC5D6300B6D28C /* FLCrashProtect */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB8CD21DC5D6300B6D28C /* FLCrashProtect.h */,
+				CE3BB8E121DC5D6300B6D28C /* FLCrashProtect.m */,
+				CE3BB8C921DC5D6300B6D28C /* FLCrashReport.h */,
+				CE3BB8E221DC5D6300B6D28C /* FLCrashReport.m */,
+				CE3BB8F621DCAE7A00B6D28C /* CatchCrash */,
+				CE3BB8DB21DC5D6300B6D28C /* Swizzle */,
+				CE3BB8C321DC5D6300B6D28C /* UnrecognizedSelector */,
+				CE3BB8C621DC5D6300B6D28C /* KVO */,
+				CE3BB8CA21DC5D6300B6D28C /* Notification */,
+				CE3BB8CE21DC5D6300B6D28C /* Container */,
+				CE3BB8DE21DC5D6300B6D28C /* KVC */,
+			);
+			path = FLCrashProtect;
+			sourceTree = "<group>";
+		};
+		CE3BB8C321DC5D6300B6D28C /* UnrecognizedSelector */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB8C421DC5D6300B6D28C /* NSObject+FLUnrecognizedSelector.h */,
+				CE3BB8C521DC5D6300B6D28C /* NSObject+FLUnrecognizedSelector.m */,
+			);
+			path = UnrecognizedSelector;
+			sourceTree = "<group>";
+		};
+		CE3BB8C621DC5D6300B6D28C /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB8C721DC5D6300B6D28C /* NSObject+FLKVOCrash.h */,
+				CE3BB8C821DC5D6300B6D28C /* NSObject+FLKVOCrash.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		CE3BB8CA21DC5D6300B6D28C /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB8CB21DC5D6300B6D28C /* NSNotificationCenter+FLCrashPtotect.h */,
+				CE3BB8CC21DC5D6300B6D28C /* NSNotificationCenter+FLCrashPtotect.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		CE3BB8CE21DC5D6300B6D28C /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB8D921DC5D6300B6D28C /* NSArray+FLCrashProtect.h */,
+				CE3BB8D321DC5D6300B6D28C /* NSArray+FLCrashProtect.m */,
+				CE3BB8D021DC5D6300B6D28C /* NSDictionary+FLCrashProtect.h */,
+				CE3BB8D721DC5D6300B6D28C /* NSDictionary+FLCrashProtect.m */,
+				CE3BB8CF21DC5D6300B6D28C /* NSMutableArray+FLCrashProtect.h */,
+				CE3BB8D521DC5D6300B6D28C /* NSMutableArray+FLCrashProtect.m */,
+				CE3BB8D421DC5D6300B6D28C /* NSMutableDictionary+FLCrashProtect.h */,
+				CE3BB8D821DC5D6300B6D28C /* NSMutableDictionary+FLCrashProtect.m */,
+				CE3BB8D221DC5D6300B6D28C /* NSMutableString+FLCrashProtect.h */,
+				CE3BB8DA21DC5D6300B6D28C /* NSMutableString+FLCrashProtect.m */,
+				CE3BB8D121DC5D6300B6D28C /* NSString+FLCrashProtect.h */,
+				CE3BB8D621DC5D6300B6D28C /* NSString+FLCrashProtect.m */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		CE3BB8DB21DC5D6300B6D28C /* Swizzle */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB8DC21DC5D6300B6D28C /* FLCrashSwizzling.h */,
+				CE3BB8DD21DC5D6300B6D28C /* FLCrashSwizzling.m */,
+			);
+			path = Swizzle;
+			sourceTree = "<group>";
+		};
+		CE3BB8DE21DC5D6300B6D28C /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB8DF21DC5D6300B6D28C /* NSObject+FLKVCCrash.h */,
+				CE3BB8E021DC5D6300B6D28C /* NSObject+FLKVCCrash.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		CE3BB8F621DCAE7A00B6D28C /* CatchCrash */ = {
+			isa = PBXGroup;
+			children = (
+				CE3BB8F721DCAEA300B6D28C /* FLCatchCrash.h */,
+				CE3BB8F821DCAEA300B6D28C /* FLCatchCrash.m */,
+			);
+			path = CatchCrash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3BB88621DC58BA00B6D28C /* FLCrashProtectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3BB8B321DC58C000B6D28C /* Build configuration list for PBXNativeTarget "FLCrashProtectDemo" */;
+			buildPhases = (
+				CE3BB88321DC58BA00B6D28C /* Sources */,
+				CE3BB88421DC58BA00B6D28C /* Frameworks */,
+				CE3BB88521DC58BA00B6D28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLCrashProtectDemo;
+			productName = FLCrashProtectDemo;
+			productReference = CE3BB88721DC58BA00B6D28C /* FLCrashProtectDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE3BB89E21DC58C000B6D28C /* FLCrashProtectDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3BB8B621DC58C000B6D28C /* Build configuration list for PBXNativeTarget "FLCrashProtectDemoTests" */;
+			buildPhases = (
+				CE3BB89B21DC58C000B6D28C /* Sources */,
+				CE3BB89C21DC58C000B6D28C /* Frameworks */,
+				CE3BB89D21DC58C000B6D28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3BB8A121DC58C000B6D28C /* PBXTargetDependency */,
+			);
+			name = FLCrashProtectDemoTests;
+			productName = FLCrashProtectDemoTests;
+			productReference = CE3BB89F21DC58C000B6D28C /* FLCrashProtectDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE3BB8A921DC58C000B6D28C /* FLCrashProtectDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3BB8B921DC58C000B6D28C /* Build configuration list for PBXNativeTarget "FLCrashProtectDemoUITests" */;
+			buildPhases = (
+				CE3BB8A621DC58C000B6D28C /* Sources */,
+				CE3BB8A721DC58C000B6D28C /* Frameworks */,
+				CE3BB8A821DC58C000B6D28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3BB8AC21DC58C000B6D28C /* PBXTargetDependency */,
+			);
+			name = FLCrashProtectDemoUITests;
+			productName = FLCrashProtectDemoUITests;
+			productReference = CE3BB8AA21DC58C000B6D28C /* FLCrashProtectDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3BB87F21DC58BA00B6D28C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = bomingli;
+				TargetAttributes = {
+					CE3BB88621DC58BA00B6D28C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CE3BB89E21DC58C000B6D28C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CE3BB88621DC58BA00B6D28C;
+					};
+					CE3BB8A921DC58C000B6D28C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CE3BB88621DC58BA00B6D28C;
+					};
+				};
+			};
+			buildConfigurationList = CE3BB88221DC58BA00B6D28C /* Build configuration list for PBXProject "FLCrashProtectDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE3BB87E21DC58BA00B6D28C;
+			productRefGroup = CE3BB88821DC58BA00B6D28C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3BB88621DC58BA00B6D28C /* FLCrashProtectDemo */,
+				CE3BB89E21DC58C000B6D28C /* FLCrashProtectDemoTests */,
+				CE3BB8A921DC58C000B6D28C /* FLCrashProtectDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3BB88521DC58BA00B6D28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3BB89421DC58C000B6D28C /* Assets.xcassets in Resources */,
+				CE3BB89221DC58BA00B6D28C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3BB89D21DC58C000B6D28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3BB8A821DC58C000B6D28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3BB88321DC58BA00B6D28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3BB88F21DC58BA00B6D28C /* ViewController.m in Sources */,
+				CE3BB89A21DC58C000B6D28C /* main.m in Sources */,
+				CE3BB8F221DC5DB500B6D28C /* PushedViewController.m in Sources */,
+				CE3BB8EB21DC5D6300B6D28C /* NSMutableString+FLCrashProtect.m in Sources */,
+				CE3BB8E621DC5D6300B6D28C /* NSArray+FLCrashProtect.m in Sources */,
+				CE3BB8E721DC5D6300B6D28C /* NSMutableArray+FLCrashProtect.m in Sources */,
+				CE3BB8EE21DC5D6300B6D28C /* FLCrashProtect.m in Sources */,
+				CE3BB8E521DC5D6300B6D28C /* NSNotificationCenter+FLCrashPtotect.m in Sources */,
+				CE3BB8E821DC5D6300B6D28C /* NSString+FLCrashProtect.m in Sources */,
+				CE3BB8EC21DC5D6300B6D28C /* FLCrashSwizzling.m in Sources */,
+				CE3BB8EA21DC5D6300B6D28C /* NSMutableDictionary+FLCrashProtect.m in Sources */,
+				CE3BB88C21DC58BA00B6D28C /* AppDelegate.m in Sources */,
+				CE3BB8ED21DC5D6300B6D28C /* NSObject+FLKVCCrash.m in Sources */,
+				CE3BB8F921DCAEA300B6D28C /* FLCatchCrash.m in Sources */,
+				CE3BB8C121DC5A4F00B6D28C /* Teacher.m in Sources */,
+				CE3BB8C021DC5A4F00B6D28C /* Student.m in Sources */,
+				CE3BB8E421DC5D6300B6D28C /* NSObject+FLKVOCrash.m in Sources */,
+				CE3BB8EF21DC5D6300B6D28C /* FLCrashReport.m in Sources */,
+				CE3BB8E921DC5D6300B6D28C /* NSDictionary+FLCrashProtect.m in Sources */,
+				CE3BB8E321DC5D6300B6D28C /* NSObject+FLUnrecognizedSelector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3BB89B21DC58C000B6D28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3BB8A421DC58C000B6D28C /* FLCrashProtectDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3BB8A621DC58C000B6D28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3BB8AF21DC58C000B6D28C /* FLCrashProtectDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE3BB8A121DC58C000B6D28C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE3BB88621DC58BA00B6D28C /* FLCrashProtectDemo */;
+			targetProxy = CE3BB8A021DC58C000B6D28C /* PBXContainerItemProxy */;
+		};
+		CE3BB8AC21DC58C000B6D28C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE3BB88621DC58BA00B6D28C /* FLCrashProtectDemo */;
+			targetProxy = CE3BB8AB21DC58C000B6D28C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE3BB89021DC58BA00B6D28C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3BB89121DC58BA00B6D28C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3BB8B121DC58C000B6D28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE3BB8B221DC58C000B6D28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3BB8B421DC58C000B6D28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJJUR36W7V;
+				INFOPLIST_FILE = FLCrashProtectDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bomingli.FLCrashProtectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE3BB8B521DC58C000B6D28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJJUR36W7V;
+				INFOPLIST_FILE = FLCrashProtectDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bomingli.FLCrashProtectDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE3BB8B721DC58C000B6D28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJJUR36W7V;
+				INFOPLIST_FILE = FLCrashProtectDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bomingli.FLCrashProtectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLCrashProtectDemo.app/FLCrashProtectDemo";
+			};
+			name = Debug;
+		};
+		CE3BB8B821DC58C000B6D28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJJUR36W7V;
+				INFOPLIST_FILE = FLCrashProtectDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bomingli.FLCrashProtectDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLCrashProtectDemo.app/FLCrashProtectDemo";
+			};
+			name = Release;
+		};
+		CE3BB8BA21DC58C000B6D28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJJUR36W7V;
+				INFOPLIST_FILE = FLCrashProtectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bomingli.FLCrashProtectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLCrashProtectDemo;
+			};
+			name = Debug;
+		};
+		CE3BB8BB21DC58C000B6D28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJJUR36W7V;
+				INFOPLIST_FILE = FLCrashProtectDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bomingli.FLCrashProtectDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLCrashProtectDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3BB88221DC58BA00B6D28C /* Build configuration list for PBXProject "FLCrashProtectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3BB8B121DC58C000B6D28C /* Debug */,
+				CE3BB8B221DC58C000B6D28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3BB8B321DC58C000B6D28C /* Build configuration list for PBXNativeTarget "FLCrashProtectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3BB8B421DC58C000B6D28C /* Debug */,
+				CE3BB8B521DC58C000B6D28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3BB8B621DC58C000B6D28C /* Build configuration list for PBXNativeTarget "FLCrashProtectDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3BB8B721DC58C000B6D28C /* Debug */,
+				CE3BB8B821DC58C000B6D28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3BB8B921DC58C000B6D28C /* Build configuration list for PBXNativeTarget "FLCrashProtectDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3BB8BA21DC58C000B6D28C /* Debug */,
+				CE3BB8BB21DC58C000B6D28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3BB87F21DC58BA00B6D28C /* Project object */;
+}
