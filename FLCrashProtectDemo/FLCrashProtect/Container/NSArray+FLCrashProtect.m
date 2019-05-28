@@ -45,7 +45,7 @@
 // 单元素数组：__NSSingleObjectArrayI；objectAtIndexedSubscript:
 - (id)fl_objectWithSingleObjectArrayIAtIndexedSubscript:(NSUInteger)index {
     if (NSLocationInRange(index, NSMakeRange(0, self.count))) {
-        return [self fl_objectWithSingleObjectArrayIAtIndex:index];
+        return [self fl_objectWithSingleObjectArrayIAtIndexedSubscript:index];
     } else {
         NSString *crashMessages = [NSString stringWithFormat:@"-[%@ %@]: index %lu beyond bounds [0 .. %lu]", self.class, NSStringFromSelector(@selector(objectAtIndexedSubscript:)), index, self.count - 1];
         [FLCrashReport.shareCrashReport reportCrashMessage:crashMessages];
@@ -55,7 +55,7 @@
 // 多元素数组：__NSArrayI；objectAtIndexedSubscript:
 - (id)fl_objectWithArrayIAtIndexedSubscript:(NSUInteger)index {
     if (NSLocationInRange(index, NSMakeRange(0, self.count))) {
-        return [self fl_objectWithArrayIAtIndex:index];
+        return [self fl_objectWithArrayIAtIndexedSubscript:index];
     } else {
         NSString *crashMessages = [NSString stringWithFormat:@"-[%@ %@]: index %lu beyond bounds [0 .. %lu]", self.class, NSStringFromSelector(@selector(objectAtIndexedSubscript:)), index, self.count - 1];
         [FLCrashReport.shareCrashReport reportCrashMessage:crashMessages];
